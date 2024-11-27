@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev src/index.ts",
+    "dev": "node ./node_modules/ts-node-dev/lib/bin.js src/index.ts",
     "test": "jest"
   },
   "jest": {
@@ -27,7 +27,7 @@
       "node"
     ]
   },
-  "author": "Manuel Gomez",
+  "author": "Thalia Garcia",
   "license": "ISC",
   "devDependencies": {
     "@types/bcryptjs": "^2.4.6",
